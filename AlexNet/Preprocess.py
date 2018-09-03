@@ -6,6 +6,7 @@
 
 import numpy as np
 import cv2
+import tensorflow as tf
 
 
 class ImageDataGenerator:
@@ -100,9 +101,10 @@ class ImageDataGenerator:
             images[i] = img
 
         # Expand labels to one hot encoding
-        one_hot_labels = np.zeros ((batch_size, self.n_classes))
-        for i in range (len (labels)):
-            one_hot_labels[i][labels[i]] = 1
+        # one_hot_labels = np.zeros ((batch_size, self.n_classes))
+        # for i in range (len (labels)):
+        #     one_hot_labels[i][labels[i]] = 1
+        one_hot_labels = tf.one_hot(labels, self.n_classes)
 
         # return array of images and labels
         return images, one_hot_labels

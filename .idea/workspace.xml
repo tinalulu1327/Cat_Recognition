@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1ac431-7cd0-409f-b770-7f7a96bd8b01" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlexNet/Preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet/Preprocess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +16,10 @@
       <file leaf-file-name="Preprocess.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlexNet/Preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+            <state relative-caret-position="600">
+              <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#140#158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,8 +37,8 @@
       <file leaf-file-name="finetune.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlexNet/finetune.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="18" />
+            <state relative-caret-position="615">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#420#429#0" expanded="true" />
               </folding>
@@ -156,16 +155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/finetune.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="18" />
-          <folding>
-            <element signature="e#420#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AlexNet/alexnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-693">
@@ -173,12 +162,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AlexNet/finetune.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#420#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AlexNet/Preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="103" column="36" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+        <state relative-caret-position="600">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#140#158#0" expanded="true" />
           </folding>
         </state>
       </provider>
