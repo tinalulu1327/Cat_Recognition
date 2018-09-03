@@ -22,7 +22,7 @@ import numpy as np
 import tensorflow as tf
 from datetime import datetime
 from alexnet import AlexNet
-from datagenerator import ImageDataGenerator
+from Preprocess import ImageDataGenerator
 
 """
 Configuration settings
