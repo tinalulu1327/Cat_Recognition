@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1ac431-7cd0-409f-b770-7f7a96bd8b01" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/AlexNet/finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet/finetune.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexNet/Preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet/Preprocess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Preprocess.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Preprocess.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlexNet/Preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="562">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -34,14 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finetune.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="finetune.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlexNet/finetune.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding>
-                <element signature="e#420#429#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="307">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -62,8 +59,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AlexNet/alexnet.py" />
-        <option value="$PROJECT_DIR$/AlexNet/Preprocess.py" />
         <option value="$PROJECT_DIR$/AlexNet/finetune.py" />
+        <option value="$PROJECT_DIR$/AlexNet/Preprocess.py" />
       </list>
     </option>
   </component>
@@ -159,22 +156,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/Preprocess.py">
+    <entry file="file://$PROJECT_DIR$/AlexNet/finetune.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="307">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/finetune.py">
+    <entry file="file://$PROJECT_DIR$/AlexNet/Preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="562">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
           <folding>
-            <element signature="e#420#429#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

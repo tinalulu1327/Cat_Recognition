@@ -49,8 +49,8 @@ class ImageDataGenerator:
         """
         Random shuffle the images and labels
         """
-        images = self.images.copy ()
-        labels = self.labels.copy ()
+        images = self.images[:]
+        labels = self.labels[:]
         self.images = []
         self.labels = []
 
