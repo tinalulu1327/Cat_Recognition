@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>Sphynx_1197.jpg</filename>
+	<path>/Users/xiaoluzhang/Dropbox/Others/Dataset/image_todo/Sphynx_1197.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2048</width>
+		<height>1365</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sphynx</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>51</ymin>
+			<xmax>1655</xmax>
+			<ymax>1365</ymax>
+		</bndbox>
+	</object>
+</annotation>

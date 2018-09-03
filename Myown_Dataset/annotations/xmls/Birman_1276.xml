@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>Birman_1276.jpg</filename>
+	<path>/Users/xiaoluzhang/Dropbox/Others/Dataset/image/Birman_1276.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4896</width>
+		<height>3672</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Birman</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>31</xmin>
+			<ymin>97</ymin>
+			<xmax>4320</xmax>
+			<ymax>3108</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>Russian_blue_1327.jpg</filename>
+	<path>/Users/xiaoluzhang/Dropbox/Others/Dataset/image_todo/Russian_blue_1327.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2592</width>
+		<height>1936</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Russian_blue</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>758</xmin>
+			<ymin>420</ymin>
+			<xmax>2028</xmax>
+			<ymax>1785</ymax>
+		</bndbox>
+	</object>
+</annotation>

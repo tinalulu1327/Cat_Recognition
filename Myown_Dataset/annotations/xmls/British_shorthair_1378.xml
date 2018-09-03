@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>British_shorthair_1378.jpg</filename>
+	<path>/Users/xiaoluzhang/Dropbox/Others/Dataset/image/British_shorthair_1378.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4416</width>
+		<height>3312</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>British_shorthair</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>161</ymin>
+			<xmax>4175</xmax>
+			<ymax>3312</ymax>
+		</bndbox>
+	</object>
+</annotation>

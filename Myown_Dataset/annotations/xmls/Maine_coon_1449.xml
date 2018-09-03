@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>image</folder>
+	<filename>Maine_coon_1449.jpg</filename>
+	<path>/Users/xiaoluzhang/Dropbox/Others/Dataset/image/Maine_coon_1449.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Maine coon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>14</xmin>
+			<ymin>86</ymin>
+			<xmax>795</xmax>
+			<ymax>535</ymax>
+		</bndbox>
+	</object>
+</annotation>

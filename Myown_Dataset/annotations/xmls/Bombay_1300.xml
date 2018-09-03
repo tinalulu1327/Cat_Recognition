@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>Bombay_1300.jpg</filename>
+	<path>/Users/xiaoluzhang/Dropbox/Others/Dataset/image/Bombay_1300.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>621</width>
+		<height>414</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bombay</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>62</xmin>
+			<ymin>4</ymin>
+			<xmax>597</xmax>
+			<ymax>414</ymax>
+		</bndbox>
+	</object>
+</annotation>

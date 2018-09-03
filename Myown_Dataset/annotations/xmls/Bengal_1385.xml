@@ -1,0 +1,26 @@
+<annotation>
+	<folder>image</folder>
+	<filename>Bengal_1385.jpg</filename>
+	<path>/Users/xiaoluzhang/Dropbox/Others/Dataset/image/Bengal_1385.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>6016</width>
+		<height>4000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bengal</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1472</xmin>
+			<ymin>21</ymin>
+			<xmax>5929</xmax>
+			<ymax>3993</ymax>
+		</bndbox>
+	</object>
+</annotation>
