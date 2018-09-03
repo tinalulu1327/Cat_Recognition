@@ -84,7 +84,7 @@ class ImageDataGenerator:
         # Read images
         images = np.ndarray ([batch_size, self.scale_size[0], self.scale_size[1], 3])
         for i in range (len (paths)):
-            img = cv2.imread ('../image' + paths[i] + '.jpg')
+            img = cv2.imread ('../image/' + paths[i] + '.jpg')
 
             # flip image at random if flag is selected
             if self.horizontal_flip and np.random.random () < 0.5:
