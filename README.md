@@ -29,6 +29,9 @@ make all
 make install
 make runtest
 
+## issue with Oxford dataset
+not all the images have bound box information !!!
+
 ## use VNC to connect VM
 # server
 vncserver -geometry 1024x768 -depth 24
