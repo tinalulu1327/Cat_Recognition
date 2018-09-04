@@ -85,13 +85,17 @@ class ImageDataGenerator:
         # Read images
         images = np.ndarray ([batch_size, self.scale_size[0], self.scale_size[1], 3])
         for i in range (len (paths)):
+            print('../image/' + paths[i] + '.jpg')
             img = cv2.imread ('../image/' + paths[i] + '.jpg')
-
+            
             # flip image at random if flag is selected
             if self.horizontal_flip and np.random.random () < 0.5:
                 img = cv2.flip (img, 1)
 
             # rescale image
+            #print(img)
+            #print(self.scale_size[0])
+            #print(self.scale_size[1])
             img = cv2.resize (img, (self.scale_size[0], self.scale_size[1]))
             img = img.astype (np.float32)
 
@@ -102,10 +106,11 @@ class ImageDataGenerator:
 
         # Expand labels to one hot encoding
         # one_hot_labels = np.zeros ((batch_size, self.n_classes))
-        # for i in range (len (labels)):
-        #     one_hot_labels[i][labels[i]] = 1
+        # one_hot_labels = tf.one_hot(labels, self.n_classes)
+        labels = [l-1 for l in labels]
         one_hot_labels = np.zeros([len(labels), self.n_classes])
-        one_hot_labels =
+        one_hot_labels[np.arange(len(labels)),
+            list(map(int, labels))] = 1.0
 
         # return array of images and labels
         return images, one_hot_labels
