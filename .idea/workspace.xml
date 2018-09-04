@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e1ac431-7cd0-409f-b770-7f7a96bd8b01" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlexNet/Preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet/Preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlexNet/finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlexNet/finetune.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Preprocess.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Preprocess.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlexNet/Preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+            <state relative-caret-position="619">
+              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="e#140#158#0" expanded="true" />
               </folding>
@@ -28,17 +30,17 @@
       <file leaf-file-name="alexnet.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlexNet/alexnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-693">
-              <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+            <state relative-caret-position="-139">
+              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="finetune.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="finetune.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlexNet/finetune.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="165">
+              <caret line="11" column="69" lean-forward="true" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
               <folding>
                 <element signature="e#420#429#0" expanded="true" />
               </folding>
@@ -54,8 +56,13 @@
       <find>num_epochs</find>
       <find>train_file</find>
       <find>ImageDataGenerator</find>
-      <find>train_generator</find>
+      <find>feed_dict</find>
+      <find>train_op</find>
+      <find>next_batch</find>
       <find>one_hot_labels</find>
+      <find>one_hot</find>
+      <find>train_generator</find>
+      <find>run</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,8 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AlexNet/alexnet.py" />
         <option value="$PROJECT_DIR$/AlexNet/finetune.py" />
+        <option value="$PROJECT_DIR$/AlexNet/alexnet.py" />
         <option value="$PROJECT_DIR$/AlexNet/Preprocess.py" />
       </list>
     </option>
@@ -73,7 +80,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="6" />
     <option name="y" value="23" />
-    <option name="width" value="1401" />
+    <option name="width" value="1311" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -125,10 +132,9 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="23" width="1401" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="6" y="23" width="1311" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26744187" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -155,29 +161,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AlexNet/Preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#140#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AlexNet/alexnet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        <state relative-caret-position="-139">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlexNet/finetune.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="165">
+          <caret line="11" column="69" lean-forward="true" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
           <folding>
             <element signature="e#420#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlexNet/Preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
-          <folding>
-            <element signature="e#140#158#0" expanded="true" />
           </folding>
         </state>
       </provider>

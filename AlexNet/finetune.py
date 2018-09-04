@@ -1,6 +1,6 @@
 """
  PURPOSE : To use finetuned AlexNet model
- Modified by Xiaolu Zhang based on Frederik Kratzert code
+ Modified by Xiaolu Zhang based on Frederik Kratzert's code
     https://github.com/kratzert/finetune_alexnet_with_tensorflow/
 """
 
