@@ -1,5 +1,5 @@
 #Image BREED ID
-#BREED ID: 1-15
+#BREED ID: 1-14
 Abyssinian 1
 Bengal 2
 Birman 3
@@ -13,5 +13,4 @@ Russian_Blue 10
 Siamese 11
 Sphynx 12
 Burmese 13
-European_burmese 14
-Manx 15
+Manx 14
