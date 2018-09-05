@@ -32,6 +32,10 @@ make runtest
 ## issue with Oxford dataset
 not all the images have bound box information !!!
 
+## Python output to log
+python -u finetune.py | tee log
+
+
 ## use VNC to connect VM
 # server
 vncserver -geometry 1024x768 -depth 24
