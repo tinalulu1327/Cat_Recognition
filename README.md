@@ -53,7 +53,8 @@ sudo vim ~/.bashrc
 source ~/.bashrc
 python object_detection/builders/model_builder_test.py
 
-
+## command to change filename
+ls British_S* | rename 's#British_S#British_s'##g
 
 ## issue with Oxford dataset
 not all the images have bound box information !!!
