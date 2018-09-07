@@ -29,6 +29,32 @@ make all
 make install
 make runtest
 
+
+## How to install tensorflow object detector
+sudo apt-get install protobuf-compiler python-pil python-lxml python-tk
+pip install --user Cython
+pip install --user contextlib2
+pip install --user jupyter
+pip install --user matplotlib
+
+git clone https://github.com/cocodataset/cocoapi.git
+cd cocoapi/PythonAPI
+make
+
+git clone https://github.com/tensorflow/models.git
+cd models/
+
+cp -r pycocotools ../../models/research/
+cd ../../models/research/
+protoc object_detection/protos/*.proto --python_out=.
+
+sudo vim ~/.bashrc
+( Add line: export PYTHONPATH=$PYTHONPATH:/mnt/models/research:/mnt/models/research/slim
+source ~/.bashrc
+python object_detection/builders/model_builder_test.py
+
+
+
 ## issue with Oxford dataset
 not all the images have bound box information !!!
 
