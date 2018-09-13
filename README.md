@@ -53,6 +53,9 @@ sudo vim ~/.bashrc
 source ~/.bashrc
 python object_detection/builders/model_builder_test.py
 
+## How to use X2go
+sudo service x2goserver start
+
 ## command to change filename
 ls British_S* | rename 's#British_S#British_s'##g
 
