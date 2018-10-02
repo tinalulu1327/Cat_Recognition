@@ -17,12 +17,12 @@ for dir in os.listdir(args.path):
         for file in os.listdir(args.path+'/'+dir):
             count = count + 1
             if ".jpg" or ".JPG" in file:
-                os.rename(args.path+dir+"/"+file, args.path+dir.capitalize()+"_"+str(count)+".jpg")
+                os.rename(args.path+dir+"/"+file, args.path+"Cats"+"_"+str(count)+".jpg")
             elif ".png" or ".PNG" in file:
-                os.rename(args.path+dir+"/"+file, args.path+dir.capitalize()+"_"+str(count)+".png")
+                os.rename(args.path+dir+"/"+file, args.path+"Cats"+"_"+str(count)+".png")
             elif ".gif" or ".GIF" in file:
-                os.rename(args.path+dir+"/"+file, args.path+dir.capitalize()+"_"+str(count)+".gif")
+                os.rename(args.path+dir+"/"+file, args.path+"Cats"+"_"+str(count)+".gif")
             elif ".jpeg" or ".JPEG" in file:
-                os.rename(args.path+dir+"/"+file, args.path+dir.capitalize()+"_"+str(count)+".jpeg")
+                os.rename(args.path+dir+"/"+file, args.path+"Cats"+"_"+str(count)+".jpeg")
     except:
         print('error')
