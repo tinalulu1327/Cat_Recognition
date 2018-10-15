@@ -1,3 +1,9 @@
+STRONGLY SUGGEST TO READ OFFICIAL INTALL GUIDE TO AVOID UNCLEAR STATEMENT IN THE DOC AND
+ERRORS CAUSED BY OUTDATED STATEMENT.
+
+THIS DOCUMENT RECORDS BASIC INSTALMENT OF OS AND TENSORFLOW,
+AND SOME COMMANDS USED IN THE PROJECT.
+
 # Cloud Server preparation
 
 ## NecTaR instance creation
@@ -20,6 +26,7 @@ virtualenv --system-site-packages -p python3 venv
 source ./venv/bin/activate
 pip install --upgrade pip
 pip install --upgrade tensorflow
+# check whether Installation is ok
 (venv)$ python -c "import tensorflow as tf; print(tf.__version__)"
 
 # install tensorflow object detector
@@ -55,9 +62,6 @@ sudo service x2goserver start
 
 ## command to change filename
 ls British_S* | rename 's#British_S#British_s'##g
-
-## issue with Oxford dataset
-not all the images have bound box information !!!
 
 ## Python output to log
 python -u finetune.py | tee log
