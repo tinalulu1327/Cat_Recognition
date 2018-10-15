@@ -30,6 +30,6 @@ pip3 show tensorflow
 cd /root/.local/lib/python3.6/site-packages/tensorboard
 screen python3 main.py --logdir=PATH_OF_TRAIN_OUTPUT_DIR
 
-# create summarize_graph
+[CREATE SUMMARIZE_GRAPH]
 bazel build tensorflow/tools/graph_transforms:transform_graph
 bazel-bin/tensorflow/tools/graph_transforms/summarize_graph --in_graph=PATH_TO_FROZEN_GRAPH
