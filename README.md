@@ -24,6 +24,11 @@ There are four parts in the project:
     - 'Web' folder stores all the files used to show the static website, which
     is a basic description of the project.
 
+5) Mobile app related files
+    - 'Mobile' folder stores all the files used to implement an Android app, and the outcome
+    apk file is downloaded by:
+    https://www.dropbox.com/sh/6izojq9hlovbky2/AADh4vxs2wzi3fomAN9tEr6oa?dl=0
+
 [GUIDE]
 1) Install Tensorflow
 2) Download Tensorflow Models:
